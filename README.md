@@ -16,12 +16,15 @@ Clone down this repository. You will need `node` and `npm` installed globally on
 
 Installation:
 
-`npm install`  
+`npm install`
 
-To Run App:
+To Run Back-End:
 
-Make sure to cd into ``list-app``, then: `npm run dev`
+If you already have Maven installed on your computer with the maven enviornment PATH variable already set, you can simply cd into the listMaker folder within the Back-End folder and run: `mvn spring-boot:run`.
 
-add more instructions
+If you don't open an IDE (I used Intellij Community Edition) and run the application from there. If you get a pop-up to import Maven please do so. To run the application, run the ListMakerApplication.java file.
 
-`mvn spring-boot:run`
+To Run Front-End:
+
+Make sure to cd into list-app within the Front-End folder, then in the CMD run: `npm run dev`.
+
