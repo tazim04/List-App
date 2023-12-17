@@ -1,6 +1,6 @@
 ## List Maker
 
-A simple list maker application. The Frontend was built using React, Javascript, CSS, and Bootstrap. The Backend was built using Java Springboot and MySQL.
+A simple list maker application, and my very first React app. The Frontend was built using React, Javascript, CSS, and Bootstrap. The Backend was built using Java Springboot and MySQL.
 
 ## Project Status
 
