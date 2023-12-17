@@ -4,7 +4,7 @@ A simple list maker application. The front-end was built using React, Javascript
 
 ## Project Status
 
-This project is still currently in progress. Users can add and delete items to the list, which updates the MySQL database and shows on the page. Functionality to sort and edit items is in development.
+This project is still currently in progress. Users can add and delete items to the list, which updates the MySQL database and shows on the page. Functionality to sort and edit items is in development. I also plan to add the functionality to create multiple lists.
 
 ## Project Screen Shot
 
