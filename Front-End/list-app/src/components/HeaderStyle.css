@@ -1,0 +1,16 @@
+header {
+    color: white;
+    background-color: rgb(20, 133, 185);
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header h1 {
+    font-weight: 350;
+}
+header p {
+    position: absolute;
+    right: 340px;
+    top: 22px;
+}

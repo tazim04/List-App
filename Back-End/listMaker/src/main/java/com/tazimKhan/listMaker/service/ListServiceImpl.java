@@ -3,6 +3,7 @@ package com.tazimKhan.listMaker.service;
 import com.tazimKhan.listMaker.model.ListItem;
 import com.tazimKhan.listMaker.repository.ListRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -25,19 +26,15 @@ public class ListServiceImpl implements ListService{
 
     @Override
     public boolean deleteListItem(ListItem listItem) {
-        List<ListItem> a = getAllItems();
-        ListItem itemToDelete = null;
-        for (ListItem item : a) {
-            System.out.println(item.getContent());
-            if (item.getContent().equals(listItem.getContent())) {
-                itemToDelete = item;
-            }
-        }
+        System.out.println("Deleting: " + listItem.getContent() + ", id=" + listItem.getId());
 
-        if (itemToDelete == null) {
+        try {
+            listRepository.deleteById(listItem.getId());
+            return true;
+        } catch (EmptyResultDataAccessException e) {
+            System.out.println(e);
             return false;
         }
-        listRepository.delete(itemToDelete);
-        return true;
+
     }
 }

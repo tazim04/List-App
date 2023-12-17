@@ -1,18 +1,12 @@
+import './HeaderStyle.css';
+
 
 function Header(){
 
     return(
         <header>
-            <h1>My website!</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-            <hr></hr>
+            <h1 className="text-center">List Maker</h1>
+            <p>By Tazim Khan</p>
         </header>
     );
 }

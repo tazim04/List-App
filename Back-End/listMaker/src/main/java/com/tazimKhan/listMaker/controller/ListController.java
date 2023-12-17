@@ -9,6 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/list")
+@CrossOrigin // to fix "blocked by CORS policy" error
 public class ListController {
     @Autowired
     private ListService listService;
