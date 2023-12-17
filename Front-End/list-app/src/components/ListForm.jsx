@@ -2,6 +2,9 @@ import React, { useState } from "react";
 
 function ListForm() {
   const [content, setContent] = useState(""); // use state
+  
+  
+
 
   // handle onClick for add button
   const addClick = (e) => {
@@ -60,5 +63,4 @@ function ListForm() {
     </>
   );
 }
-
 export default ListForm;

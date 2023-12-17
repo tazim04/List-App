@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
+import './ListGroupStyle.css';
 
 function ListGroup() {
   const [items, setItems] = useState([]); // hold items from db
-  // const [content, setContent] = useState([]); // for getting item to delete
+
+  
 
   useEffect(() => {
     // api call to back-end
@@ -27,6 +29,7 @@ function ListGroup() {
 
   return (
     <>
+
       <h1
         className="text-center pt-5 pb-0 px-0"
         style={{ fontWeight: 400, fontSize: "xx-large" }}
@@ -36,7 +39,7 @@ function ListGroup() {
       {items.length == 0 && (
         <p className="text-center">You have an emtpy list! Start by adding your first item.</p>
       )}
-      <ul className="list-group pt-1 pb-0 px-0 w-50 mx-auto">
+      <ul className="list-group pt-1 pb-0 px-0 col-5 mx-auto">
         {items.map((item) => (
           <li className="list-group-item" key={item.id}>
             {item.content}
