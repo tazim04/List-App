@@ -12,7 +12,7 @@ This project is still currently in progress. Users can add and delete items to t
 
 ## Installation and Setup Instructions
 
-Clone down this repository. You will need `node` and `npm` installed globally on your machine. You will also need XAMPP downloaded to be able to run Apache and MySQL. If these are not running the application will not run.
+Clone down this repository. You will need `node` and `npm` installed globally on your machine. You will also need XAMPP downloaded to be able to run Apache and MySQL. If these are not running the Back-End of the application will not run.
 
 Installation:
 
