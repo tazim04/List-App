@@ -22,6 +22,8 @@ Installation:
 
 To Run App:
 
-`npm run dev`
+Make sure to cd into `list-app`, then: `npm run dev`
 
 add more instructions
+
+`mvn spring-boot:run`
