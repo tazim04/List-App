@@ -1,6 +1,6 @@
 ## List Maker
 
-A simple list maker application. The front-end was built using React, Javascript, CSS, and Bootstrap. The back-end was built using Java Springboot and MySQL.
+A simple list maker application. The Frontend was built using React, Javascript, CSS, and Bootstrap. The Backend was built using Java Springboot and MySQL.
 
 ## Project Status
 
@@ -12,19 +12,19 @@ This project is still currently in progress. Users can add and delete items to t
 
 ## Installation and Setup Instructions
 
-Clone down this repository. You will need `node` and `npm` installed globally on your machine. You will also need XAMPP downloaded to be able to run Apache and MySQL. If these are not running the Back-End of the application will not run.
+Clone down this repository. You will need `node` and `npm` installed globally on your machine. You will also need XAMPP downloaded to be able to run Apache and MySQL. If these are not running the Backend of the application will not run.
 
 Installation:
 
 `npm install`
 
-To Run Back-End:
+To Run Backend:
 
 If you already have Maven installed on your computer with the maven enviornment PATH variable already set, you can simply open the CMD, cd into the listMaker folder within the Back-End folder and run: `mvn clean install` then `mvn spring-boot:run`.
 
 If you don't have maven enviornment PATH variable already set, you can also open the project in an IDE (I used Intellij Community Edition) and run the application from there. If you get a pop-up to import Maven please do so. To run the application, run the ListMakerApplication.java file.
 
-To Run Front-End:
+To Run Frontend:
 
 Make sure to cd into list-app within the Front-End folder, then in the CMD run: `npm run dev`.
 
