@@ -20,11 +20,11 @@ Installation:
 
 To Run Backend:
 
-If you already have Maven installed on your computer with the maven enviornment PATH variable already set, you can simply open the CMD, cd into the listMaker folder within the Back-End folder and run: `mvn clean install` then `mvn spring-boot:run`.
+If you already have Maven installed on your computer with the maven enviornment PATH variable already set, you can simply open the CMD, cd into: Back-End -> listMaker, folder and run: `mvn clean install` then `mvn spring-boot:run`.
 
 If you don't have maven enviornment PATH variable already set, you can also open the project in an IDE (I used Intellij Community Edition) and run the application from there. If you get a pop-up to import Maven please do so. To run the application, run the ListMakerApplication.java file.
 
 To Run Frontend:
 
-Make sure to cd into list-app within the Front-End folder, then in the CMD run: `npm run dev`.
+Make sure to cd into: Front-End -> list-app, then in the CMD run: `npm run dev`.
 
