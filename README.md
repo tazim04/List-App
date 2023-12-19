@@ -23,6 +23,7 @@ Installation:
 To Run Backend:
 
 In the XAMPP Control Panel, make sure to have Apache and MySQL running for the Backend to work.
+
 ![image](https://github.com/tazim04/List-App/assets/35643104/3121e451-7788-4b5c-90ac-a8b57c26f8ed)
 
 
