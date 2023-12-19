@@ -14,6 +14,8 @@ This project is still currently in progress. Users can add and delete items to t
 
 Clone down this repository. You will need `node` and `npm` installed globally on your machine. You will also need XAMPP downloaded to be able to run Apache and MySQL. If these are not running the Backend of the application will not run.
 
+XAMPP Download Link: https://www.apachefriends.org/download.html
+
 Installation:
 
 `npm install`
